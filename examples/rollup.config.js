@@ -4,7 +4,7 @@ import html from '../src/index';
 export default {
   input: 'src/index.js',
   output: {
-    file: 'dist/bundle-[hash].js',
+    file: 'bug/dist/simple/bundle.js',
     format: 'iife',
   },
   plugins: [
